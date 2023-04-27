@@ -1,0 +1,70 @@
+body {background-color: aquamarine;
+    margin-top:-10px;margin-left:1px; margin-right:0px;animation-name: back;animation-duration:15s;
+animation-timing-function: cubic-bezier(0.01, 0.01, 0.01, 0.01);animation-iteration-count: infinite;}
+@keyframes back {
+ 0% {background-color:rgb(132, 243, 243) ;}
+ 10% {background-color:rgb(175, 248, 224) ;}
+ 20% {background-color:rgb(132, 243, 243) ;}
+ 30% {background-color:rgb(175, 248, 224) ;}
+ 40% {background-color:rgb(132, 243, 243) ;}
+ 50% {background-color:rgb(175, 248, 224);}
+ 60% {background-color:rgb(132, 243, 243)}
+ 70% {background-color:rgb(175, 248, 224) ;}
+ 80% {background-color:rgb(132, 243, 243);}
+ 90% {background-color:rgb(175, 248, 224) ;}
+ 100% {background-color:rgb(132, 243, 243);} }
+#titulo {text-shadow:2px 2px 2px aquamarine,4px 4px 4px black; color:black; font-size:50px;
+font-weight:900px;  background-color:whitesmoke; margin-top:5px;font-style: oblique;
+vertical-align:middle;padding-left:3px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,monospace;
+animation-name:borde;animation-duration: 2s;animation-iteration-count: infinite;animation-timing-function: linear;
+background: -webkit-linear-gradient(top,rgba(245, 245, 245, 0.8),rgba(245, 245, 245, 0.8));}
+@keyframes borde {
+    0% {text-shadow:2px 2px 2px aqua,4px 4px 4px black;}
+    50% {text-shadow:2px 2px 2px yellow,4px 4px 4px black;}
+    100% {text-shadow:2px 2px 2px aquamarine,4px 4px 4px black;}
+}
+.Contacto {text-align:center;  margin-top:40px; font-family:Arial, Helvetica, sans-serif; 
+ border-style:solid; border-width:2px;border-radius:80px; border-color: whitesmoke;
+ ;margin-left:40px; margin-right:40px ;border-color:black; background-color:whitesmoke ;
+border-spacing:50px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,monospace;
+box-shadow: inset 3px 2px 3px 3px black,inset -3px -2px 3px 3px black;padding:35px;padding-right:400px;
+padding-left:400px;position: absolute;top:315px;font-weight: 500;font-size: xx-large;}
+a {color:black;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,monospace;
+text-shadow:3px 3px 2px aquamarine,-3px -3px 2px aquamarine;font-size: larger;}
+.logo {width:150px;border:2px; border-style:solid; border-color: whitesmoke;box-shadow:3px 3px 3px 3px black,
+-3px -3px 3px 3px black;margin-left:80px; margin-right:80px;position: relative;top: -70px;}
+.logo:hover {transform: scale3D(1.2,1.2,1.2);filter: brightness(105%) contrast(120%) saturate(105%);}
+#refran {font-size:50px; text-align: center; text-shadow:3px 3px 5px yellow; font-weight:bold;
+margin-top:20px;margin-bottom:10px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+,monospace;position: relative;top: -60px;}
+#foot {text-align: center; font-size:larger;font-weight: 700;
+font-style: italic; font-family:'Arial Narrow Bold', Arial, sans-serif
+,monospace;text-shadow: 2px 2px 2px yellow,4px 4px 4px black; background-color:whitesmoke;
+position:absolute;top:600px;left: 1px;margin-top:30px;margin-left:0px;margin-right:0px;
+width:1365px;overflow-wrap:break-word;padding-top:0px;padding-bottom:0px;height:25px;
+background: -webkit-linear-gradient(left,yellow,rgba(255, 253, 162, 0.7),
+whitesmoke 50%,rgba(255, 253, 162, 0.7),yellow);}
+.p {font-size: large;position: relative;bottom:0px;}
+a:link {text-decoration: none;}
+a:hover {color: yellow;background-color: transparent;text-shadow:3px -3px 2px black,-3px 3px 2px black;
+    border-color:black;box-shadow:inset 5px 5px 2px 3px whitesmoke, inset -3px -3px 2px 3px whitesmoke;}
+.foto {float: right; width: 46px; border:2px; border-radius:10px; position: relative; top: -5em; right: 8px;
+        image-resolution:100px;border: 2px black;border-style:solid;box-shadow:1px 1px 1px 1px aquamarine,
+-1px -1px 1px 1px aquamarine;background-color: rgba(245, 245, 245, 0.1);animation-name: foto;
+animation-timing-function: linear;animation-duration:1s;animation-iteration-count: infinite;
+filter: contrast(125%) brightness(105%) saturate(105%);}
+@keyframes foto {
+    0% {box-shadow:1px 1px 1px 1px yellow,-1px -1px 1px 1px aquamarine}
+    50% {box-shadow:1px 1px 1px 1px aquamarine,-1px -1px 1px 1px yellow;}
+    100% {box-shadow: 1px 1px 1px 1px yellow,-1px -1px 1px 1px aquamarine;}
+}
+.Contacta {text-align:center;  margin-top:40px; font-family:Arial, Helvetica, sans-serif; 
+    border-style:solid; border-width:2px;padding:35px;border-radius:80px; border-color: whitesmoke;
+    ;margin-left:40px; margin-right:40px ;border-color:black; background-color:whitesmoke ;
+   border-spacing:50px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,monospace;
+   box-shadow: inset 3px 2px 3px 3px black,inset -3px -2px 3px 3px black;position: relative;top:120px;right:0px;
+   padding-right:400px;  padding-left:400px;font-size: xx-large;font-weight: 500}
+#lin {position: relative;top:-92.5px;background-color: black;height:5px;width:1362px;left: -1px;}
+.on {position: relative;top: 167px;background-color: black;height:3px;}
+.tw {position: relative;top: 184px;;height:3px;background-color: black;}
